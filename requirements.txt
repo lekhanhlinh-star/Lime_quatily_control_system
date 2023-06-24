@@ -1,0 +1,14 @@
+# torch==1.13.1+cu116
+fastapi==0.88.0
+matplotlib==3.6.3
+numpy==1.24.1
+Pillow==9.4.0
+pytorch_lightning==1.9.2
+supervision==0.6.0
+
+torchmetrics==0.11.1
+torchvision==0.14.1+cu116
+ultralytics==8.0.93
+uvicorn==0.21.1
+websocket_client==1.5.0
+--extra-index-url https://download.pytorch.org/whl/cu116

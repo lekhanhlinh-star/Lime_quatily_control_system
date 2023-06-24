@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/index.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+    <title>Lemon Classify</title>
+</head>
+<body>
+    <div class="above">
+        <span class="title">Lemon Classify</span>
+        <div class="buttons">
+            <button id="startWebCamBtn">
+                    Start Web Cam
+            </button>
+            <button id="stopWebCamBtn">
+                Stop Web Cam
+            </button>
+            <label class="custom-file-upload">
+                Choose picture
+                <input type="file"  id="image_input" accept="image/img, image/jpg " >
+            </label> 
+        </div>
+    </div>
+
+
+
+    <div class="below">
+        <div class="groupInfor">
+            <div class="inforContainer">
+                <label id = "groupName">Group name:  </label>
+                <div class="groupMemberInfor">
+                    <label id = "groupMember">Group member: </label>
+                    <label>Lê Khánh Linh - 20110377</label> 
+                    
+                    <label>Tăng Tâm Như - 20110404</label>
+                    
+                    <label>Huỳnh Đình Thịnh - 20110404</label>
+                </div>
+            </div>
+                
+        </div>
+        <div id="display_image">
+            <video id="webCam" width="100%" height="100%"  autoplay muted></video>
+        </div>
+        <div class="resultContainer">
+             <canvas id="canvasElement"></canvas>   
+            <img id="photo">
+        </div>
+    </div>
+
+    
+
+    
+    <script defer src="static/index.js"></script>
+</body>
+</html>

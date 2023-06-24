@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(to right, rgba(7, 1, 1, 0.836), rgba(96, 94, 11, 0)), url("./lemon.jpg") center;
+}
+
+.title{
+    font-size: 50px;
+    color: white;
+}
+
+
+.above{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.custom-file-upload {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(174,222,228);
+    font-weight: bold;
+    color: 	rgb(242, 242, 242);
+    cursor: pointer;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+input[type="file"] {
+    display: none;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.below{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+/*css group infor */
+.groupInfor{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    flex: 1;
+    display: flex;
+    border: 5px solid black;
+}
+.inforContainer{
+    display: flex;
+    flex-direction: column;  
+}
+#groupName{
+    padding-left: 10px;
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+.groupMemberInfor{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+    padding: 10px;
+    color:green;
+    font-weight: 540;
+}
+#groupMember{
+    font-weight: bold;
+}
+
+/*css group infor */
+.resultContainer{
+    flex: 2;
+    display: flex;
+    background-color: white;
+    
+    width: 290px;
+    height: 390px;
+    border: 5px solid black;
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
+}
+
+
+#display_image{
+    flex: 2;
+    display: flex;
+    background-color: white;
+   
+    width: 290px;
+    height: 390px;
+    border: 5px solid yellow;
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
+    
+}
+canvas{
+    display: none;
+}
+
