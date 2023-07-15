@@ -23,7 +23,6 @@ $ git clone https://github.com/lekhanhlinhstar/Lime_quatily_control_system.git
 Once you have cloned the repository, you will need to install the required dependencies. You can do this using `pip`:
 
 ```
-$
 $ pip install -r requirements.txt
 ```
 
