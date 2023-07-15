@@ -6,11 +6,11 @@ This project is a computer vision solution that uses the YOLOv8 object detection
 
 ## Object Detection with YOLOv8
 
-The first step of the quality control process is object detection using the YOLOv8 algorithm. This algorithm is a real-time object detection system that uses a single neural network to predict bounding boxes and class probabilities for objects in an image. In the context of the quality control project, YOLOv8 is used to detect and localize Lemon in the images.
+The first step of the quality control process is object detection using the YOLOv8 algorithm. This algorithm is a real-time object detection system that uses a single neural network to predict bounding boxes and class probabilities for objects in an image. In the context of the quality control project, YOLOv8 is used to detect and localize the lemon in the images.
 
 ## Classification with EfficientNet
 
-After detecting any defects or anomalies in the image, the next step is classification using the EfficientNet algorithm. This algorithm is a neural network architecture that has achieved state-of-the-art results on a wide range of computer vision tasks. In the context of the quality control project, EfficientNet is used to classify the entire image as either "good" or "bad" based on the presence or absence of defects.
+After detecting the lemon in the image, the next step is classification using the EfficientNet algorithm. This algorithm is a neural network architecture that has achieved state-of-the-art results on a wide range of computer vision tasks. In the context of the quality control project, EfficientNet is used to classify the entire image as either "good" or "bad" based on the presence or absence of defects.
 
 ## Getting Started
 
